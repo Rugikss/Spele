@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(64, 64, 241);
+
+
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;
+  gap: 70px;
+  
+  
+  
+}
+.buttons-container button{
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: rgb(64, 64, 241);
+}
+
+#reset-button{
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgb(18, 18, 19);
+}
